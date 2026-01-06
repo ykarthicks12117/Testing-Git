@@ -1,26 +1,24 @@
 
 import java.util.Scanner;
-public class Developer{
-    public static void main(String[]args){
-        Scanner input= new Scanner(System.in);
+
+public class Developer {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
         System.out.print("Enter your name:");
-        String name=input.nextLine();
+        String name = input.nextLine();
         System.out.print("Enter your age");
-        int age=input.nextInt();
+        int age = input.nextInt();
         System.out.print(age);
-        if(name .equals("Yuvan Karthick")){
+        
+        if ("yuvankarthicks".equals(name)) {
             System.out.print("You are the CEO of Google\n");
-        }
-        else
-        {
+        } else {
             System.out.print("You go and sit aside");
         }
-        for(int i=0;i<=5;i++){
+        for (int i = 0; i <= 5; i++) {
             System.out.print("Yuvan karthick\t");
         }
-      
 
-
-        
     }
 }
