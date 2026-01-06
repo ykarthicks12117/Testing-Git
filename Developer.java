@@ -11,7 +11,8 @@ public class Developer {
         int age = input.nextInt();
         System.out.print(age);
         
-        if (name equal("Yuvan karthick")) {
+        if (name.equals("Yuvan karthick")) 
+        {
             System.out.print("You are the CEO of Google\n");
         } else {
             System.out.print("You go and sit aside");
